@@ -1,12 +1,92 @@
-# React + Vite
+# 📝 React Todo App – Context API + LocalStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple yet powerful Todo App built using **React**, featuring:
 
-Currently, two official plugins are available:
+- Global state management with **Context API**
+- Persistent todos using **LocalStorage**
+- Ability to **add**, **edit**, **delete**, and **toggle** todos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](./src/screenshot/screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Add new todo tasks
+- Mark todos as completed
+- Edit existing todos
+- Delete todos
+- Data persists across page reloads via localStorage
+- Minimal and clean UI
+
+---
+
+## ⚙️ Technologies Used
+
+- **React**
+- **Context API**
+- **LocalStorage**
+- **Tailwind CSS** (optional/styling)
+
+---
+
+## 🛠️ How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Learnings
+
+Through this project, I practiced:
+
+- Managing global state with React Context
+- Understanding how `useState`, `useEffect`, and localStorage work together
+- Structuring components for reusable logic
+- Using JavaScript array methods like `map`, `filter`, and spread syntax
+
+---
+
+## 📂 Project Structure
+
+```
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   └── TodoItem.jsx
+│   ├── context/
+│   │   └── TodoContext.js
+│   ├── screenshot/
+│   │   └── screenshot.png
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## ✍️ Author
+
+- **Manjinder Singh**
+
+---
